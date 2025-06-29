@@ -1,16 +1,13 @@
 package com.ecommerce.project.model;
 
 public class Category {
-    private Long categoryID;
+    private Long categoryId;
     private String categoryName;
 
-    public Long getCategoryID() {
-        return categoryID;
+    public Long getCategoryId() {
+        return categoryId;
     }
 
-    public void setCategoryID(Long categoryID) {
-        this.categoryID = categoryID;
-    }
 
     public String getCategoryName() {
         return categoryName;
@@ -22,11 +19,9 @@ public class Category {
 
 
     public void setCategoryId(Long categoryId) {
-        this.categoryID = categoryId;
+        this.categoryId = categoryId;
     }
 
 
-    public Object getCategoryId() {
-        return categoryID;
-    }
+
 }
